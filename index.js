@@ -32,7 +32,7 @@ let image = "https://static.vecteezy.com/system/resources/previews/020/962/986/n
  */
 
 const fullNameString = `My name is ${fullName}`;
-const yearOfBirthString = `I born in ${yearOfBirth}`;
+const yearOfBirthString = `I'm ${2024 - yearOfBirth}`;
 const hobbyString =`My hoppy is ${hoppy}`;
 
 
