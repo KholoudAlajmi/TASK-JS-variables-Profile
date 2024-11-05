@@ -10,11 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-let fullName = "Kholoud Alajmi";
-let yearOfBirth = 2000;
-let hoppy ="swimming";
-let funFact = "I can't help people when they sink";
-let image = "https://static.vecteezy.com/system/resources/previews/020/962/986/non_2x/software-engineer-graphic-clipart-design-free-png.png";
+const fullName = "Kholoud Alajmi";
+const yearOfBirth = 2000;
+const hobby ="swimming";
+const funFact = "I can't help people when they sink";
+const image = "https://static.vecteezy.com/system/resources/previews/020/962/986/non_2x/software-engineer-graphic-clipart-design-free-png.png";
 
 
 
@@ -33,7 +33,7 @@ let image = "https://static.vecteezy.com/system/resources/previews/020/962/986/n
 
 const fullNameString = `My name is ${fullName}`;
 const yearOfBirthString = `I'm ${2024 - yearOfBirth}`;
-const hobbyString =`My hoppy is ${hoppy}`;
+const hobbyString =`My hobby is ${hobby}`;
 
 
 /**
@@ -45,18 +45,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
-  stars +=1
+  stars +=1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
-  stars -=1
+  stars -=1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 
-  stars +=2
+  stars +=2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
-  stars -=2
+  stars -=2;
 }
